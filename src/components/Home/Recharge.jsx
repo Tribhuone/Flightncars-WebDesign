@@ -1,0 +1,29 @@
+
+import SectionHeader from "../atoms/SectionHeader";
+import IconTile from "../atoms/IconTile";
+
+import { rechargeItems } from "../../data/homeData";
+
+function RechargeSection() {
+
+    return (
+        <div className="bg-white rounded-[20px] p-4 shadow-sm text-slate-900">
+            <SectionHeader
+                title="Recharge & Pay Bills"
+            />
+
+            <div className="grid grid-cols-4 gap-4">
+                {rechargeItems.map((item) => (
+                    <IconTile
+                        key={item.label}
+                        image={item.image}
+                        label={item.label}
+                    />
+                ))}
+
+            </div>
+        </div>
+    );
+}
+
+export default RechargeSection;
