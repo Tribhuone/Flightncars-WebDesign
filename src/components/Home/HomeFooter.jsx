@@ -7,7 +7,15 @@ export default function HomeFooter() {
         <footer className="bg-white rounded-3xl p-5 text-slate-900 shadow-sm">
             <div className="flex items-start justify-between gap-4">
                 <div>
-                    <h2 className="text-lg font-bold text-slate-950">Flighsncars</h2>
+                    {/* <h2 className="text-lg font-bold text-slate-950">Flighsncars</h2> */}
+
+                    <img 
+                        src={"/new-logo.png" }
+                        width={210}
+                        height={50}
+                        alt="Flighsncars"
+                        className="object-contain mb-3"
+                    />
                     <p className="mt-1 text-sm leading-5 text-slate-600">
                         Travel bookings, bill payments and daily utilities in one place.
                     </p>
