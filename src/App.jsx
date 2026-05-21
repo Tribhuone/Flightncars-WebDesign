@@ -2,7 +2,7 @@
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/Home/Hero";
 // import TravelSection from "./components/home/Travel";
-import LoginSection from "./components/Home/Login";
+// import LoginSection from "./components/Home/Login";
 import RechargeSection from "./components/Home/Recharge";
 import UtilitiesSection from "./components/Home/Utilities";
 import OffersSection from "./components/Home/Offer";
@@ -21,7 +21,7 @@ export default function Home() {
         <div className="space-y-4 p-4 pb-24">
           <HeroSection />
           <TravelSection />
-          <LoginSection />
+          {/* <LoginSection /> */}
           <RechargeSection />
           <UtilitiesSection />
           <OffersSection />

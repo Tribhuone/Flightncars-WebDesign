@@ -59,19 +59,24 @@ export default function OffersSection() {
                                 key={offer.category}
                                 className="min-w-full rounded-lg border border-slate-200 bg-white p-4 shadow-md"
                             >
-                                <div className="mx-auto flex h-52 w-full max-w-[230px] flex-col justify-between rounded-lg bg-amber-300 p-4 text-slate-950">
-                                    <div className="flex items-center justify-between">
+                                <div className="relative mx-auto flex h-52 w-full max-w-[230px] flex-col justify-between overflow-hidden rounded-lg p-4 text-white">
+                                    <img
+                                        src="/move-plane-2.gif"
+                                        width={230}
+                                        height={208}
+                                        alt=""
+                                        className="absolute inset-0 h-full w-full object-cover object-center"
+                                    />
+                                    <div className="absolute inset-0 bg-slate-950/35" />
+
+                                    <div className="relative z-10 flex items-center justify-between">
                                         <span className="text-xs font-bold uppercase tracking-wide">
                                             {offer.badge}
                                         </span>
                                         <Icon size={26} />
                                     </div>
 
-                                    <div className="flex justify-center">
-                                        <Plane size={92} strokeWidth={1.6} className="rotate-12 text-white drop-shadow" />
-                                    </div>
-
-                                    <p className="text-xl font-black leading-5">
+                                    <p className="relative z-10 text-xl font-black leading-5 drop-shadow">
                                         Book Trip
                                         <br />
                                         Ticket Now

@@ -1,6 +1,6 @@
 import { Headphones, Mail, MapPin, ShieldCheck } from "lucide-react";
 
-const footerLinks = ["Flights", "Hotels", "Recharge", "Utilities", "Offers"];
+const footerLinks = ["Flights", "Hotels", "Recharge", "Account", "Offers"];
 
 export default function HomeFooter() {
     return (

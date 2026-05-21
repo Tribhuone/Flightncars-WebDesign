@@ -5,16 +5,24 @@ export const travelItems = [
     image: "/flight.png",
   },
   {
-    label: "Hotels",
-    image: "/hotels.png",
-  },
-  {
-    label: "Bus",
-    image: "/bus.png",
+    label: "Visa",
+    image: "/visa.webp",
   },
   {
     label: "Holidays",
     image: "/holidayz.png",
+  },
+  {
+    label: "Cab",
+    image: "/cab.png",
+  },
+  {
+    label: "Activities",
+    image: "/activities.png",
+  },
+  {
+    label: "Hotels",
+    image: "/hotels.png",
   },
 ];
 
@@ -39,20 +47,20 @@ export const rechargeItems = [
 
 export const utilityItems = [
   {
-    label: "LPG Gas",
-    image: "/lpg.png",
+    label: "Bookings",
+    image: "/booking.webp",
   },
   {
-    label: "Life Insurance",
-    image: "/life-insurance.png",
+    label: "Wallet",
+    image: "/wallet.png",
   },
   {
-    label: "Club Association",
-    image: "/club-association.png",
+    label: "Documents",
+    image: "/document1.webp",
   },
   {
-    lebel: "Subscription",
-    image: "/subscription.png",
+    label: "Invoices",
+    image: "/invoices.png",
   }
 ];
 

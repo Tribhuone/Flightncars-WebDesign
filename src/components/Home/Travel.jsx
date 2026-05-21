@@ -11,7 +11,7 @@ export default function TravelSection() {
                 title="Travel"
             />
 
-            <div className="grid grid-cols-4 gap-4">
+            <div className="grid grid-cols-3 gap-4">
                 {
                     travelItems.map(item => (
                         <TileLayer
@@ -22,7 +22,7 @@ export default function TravelSection() {
                 }
             </div>
 
-            <div className="grid grid-cols-2 gap-3 mt-5">
+            {/* <div className="grid grid-cols-2 gap-3 mt-5">
                 <button className="border border-slate-200 rounded-xl p-3 text-sm font-medium text-slate-900">
                     Register Your Business
                 </button>
@@ -30,7 +30,7 @@ export default function TravelSection() {
                 <button className="border border-slate-200 rounded-xl p-3 text-sm font-medium text-slate-900">
                     Latest Special Offers
                 </button>
-            </div>
+            </div> */}
         </div>
     );
 }

@@ -9,7 +9,7 @@ function UtilitiesSection() {
     <div className="bg-white rounded-[20px] p-4 shadow-sm text-slate-900">
 
       <SectionHeader
-        title="Utilities"
+        title="My Accounts"
       />
       <div className="grid grid-cols-4 gap-4">
 
@@ -19,7 +19,6 @@ function UtilitiesSection() {
             image={item.image}
             label={item.label}
           />
-
         ))}
 
       </div>
