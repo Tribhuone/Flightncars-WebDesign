@@ -1,7 +1,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const heroImages = ["/hero-banner.png", "/hero.webp"];
+const heroImages = ["/hero-banner.png", "/hero.webp", "/3rd-Hero.webp"];
 
 export default function HeroSection() {
     const [activeImage, setActiveImage] = useState(0);
