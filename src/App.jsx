@@ -1,13 +1,13 @@
 
 import Navbar from "./components/Navbar";
-import HeroSection from "./components/home/Hero";
+import HeroSection from "./components/Home/Hero";
 // import TravelSection from "./components/home/Travel";
-import LoginSection from "./components/home/Login";
-import RechargeSection from "./components/home/Recharge";
-import UtilitiesSection from "./components/home/Utilities";
-import OffersSection from "./components/home/Offer";
+import LoginSection from "./components/Home/Login";
+import RechargeSection from "./components/Home/Recharge";
+import UtilitiesSection from "./components/Home/Utilities";
+import OffersSection from "./components/Home/Offer";
 import FooterNav from "./components/Footer";
-import HomeFooter from "./components/home/HomeFooter";
+import HomeFooter from "./components/Home/HomeFooter";
 import TravelSection from './components/Home/Travel';
 
 export default function Home() {
