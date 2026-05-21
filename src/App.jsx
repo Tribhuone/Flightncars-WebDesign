@@ -1,13 +1,14 @@
 
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/home/Hero";
-import TravelSection from "./components/home/Travel";
+// import TravelSection from "./components/home/Travel";
 import LoginSection from "./components/home/Login";
 import RechargeSection from "./components/home/Recharge";
 import UtilitiesSection from "./components/home/Utilities";
 import OffersSection from "./components/home/Offer";
 import FooterNav from "./components/Footer";
 import HomeFooter from "./components/home/HomeFooter";
+import TravelSection from './components/Home/Travel';
 
 export default function Home() {
 
