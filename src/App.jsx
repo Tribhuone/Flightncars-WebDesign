@@ -154,6 +154,7 @@ export default function Home() {
         <Navbar />
 
         <div className="space-y-5 px-4 pb-28 pt-4">
+          <HeroSection />
           <section>
             <p className="text-[14px] font-semibold text-slate-500">Good Morning</p>
             <h1 className="text-[22px] font-bold leading-tight tracking-[-0.01em] text-slate-950">
@@ -170,7 +171,6 @@ export default function Home() {
           </div>
 
           <BookingWidget />
-          <HeroSection />
 
           <TravelSection />
           <RechargeSection />
