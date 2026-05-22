@@ -1,27 +1,22 @@
 import {
-  Bell,
-  ChevronDown,
-  ChevronRight,
   Menu,
-  Sparkles,
   UserRound,
-  X,
 } from "lucide-react";
 import { useState } from "react";
 
-const sidebarItems = [
-  "Home",
-  "Sign In",
-  "Create Account",
-  "Manage Bookings",
-  "Partner Login",
-  "Partner Registration",
-  "Profile & Terms",
-  "Make Online Payment",
-];
+// const sidebarItems = [
+//   "Home",
+//   "Sign In",
+//   "Create Account",
+//   "Manage Bookings",
+//   "Partner Login",
+//   "Partner Registration",
+//   "Profile & Terms",
+//   "Make Online Payment",
+// ];
 
 export default function Navbar() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+//   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-[1000] border-b border-white/50 bg-[#f3f9ff] px-4 pb-3 pt-4 backdrop-blur-2xl">
@@ -30,7 +25,7 @@ export default function Navbar() {
           <button
             type="button"
             aria-label="Open menu"
-            onClick={() => setIsSidebarOpen(true)}
+            // onClick={() => setIsSidebarOpen(true)}
             className="grid h-11 w-11 place-items-center rounded-2xl bg-white/85 text-slate-900 shadow-[0_12px_26px_rgba(15,23,42,0.08)] transition active:scale-95"
           >
             <Menu size={21} />
