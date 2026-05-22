@@ -6,7 +6,7 @@ import SectionHeader from "../atoms/SectionHeader";
 export default function TravelSection() {
     return (
 
-        <div className="bg-white p-4 rounded-3xl text-slate-900">
+        <div className="bg-white p-4 rounded-3xl text-slate-900 shadow-[0_14px_30px_rgba(15,23,42,0.08)]">
             <SectionHeader
                 title="Travel"
             />
